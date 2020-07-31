@@ -1,0 +1,24 @@
+*{
+    transition: all 400ms;
+}
+
+body{
+    padding: 50px ;
+}
+
+p{
+    margin: 0;
+    cursor: pointer;
+}
+
+.list-group-item{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.complete{
+    text-decoration: line-through;
+    opacity: .5;
+    transition: all 400ms;
+}
